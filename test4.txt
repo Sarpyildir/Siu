@@ -1,0 +1,25 @@
+@BEGIN
+/* Example program 4 */
+
+void lastVariableCheck(){
+bool a
+bool b
+bool c
+insiu(a){"Enter value of a: "}
+insiu(b){"Enter value of b: "}
+insiu(c){"Enter value of c: "}
+if(a & b){
+	while(a => c){
+		if(c=>b)
+		{
+			a = !a
+		}
+		else
+		{
+			insiu(c){"Enter another value for c: "}
+		}
+	}
+}
+siu{c}
+}
+@END

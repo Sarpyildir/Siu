@@ -1,0 +1,34 @@
+@BEGIN
+bool x
+bool y
+bool z
+insiu(x){"Enter value of x: "}
+insiu(y){"Enter value of y: "}
+insiu(z){"Enter value of z: "}
+bool sentinel = true
+while(sentinel)
+{	
+	if(x & y)
+	{
+		if(z)
+		{
+			insiu(x){"Enter value of x: "}
+			insiu(y){"Enter value of y: "}
+			insiu(z){"Enter value of z: "}
+		} 
+		else 
+		{
+			sentinel = false
+		}
+	}
+	else
+	{
+		sentinel = false
+	}
+}
+/* look mom, I wrote a comment*/	
+bool lhs= x -> y /* (x->y) */
+bool rhs= !x => z /* (!x)=>z) */
+result = lhs & rhs /* ((x->y) & (!x)=>z)) */
+siu{result}
+@END

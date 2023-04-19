@@ -1,0 +1,33 @@
+@BEGIN
+
+bool boo(){ 
+bool x
+bool y
+bool z
+insiu(x){"Enter value of x: "}
+insiu(y){"Enter value of y: "}
+insiu(z){"Enter value of z: "}
+array arr
+arr = { x , y , z }
+return foo(arr)
+}
+bool foo(array arr){
+for (bool a in arr) {
+		if( a ->x){ /* x is first element and a is current element of the array */
+			a = !a
+}
+}
+while(y->z){
+	if(y=>z){
+y = !z
+}
+else{
+z = !z
+}
+}
+bool result = x | y
+result = x == z
+return result
+}
+@END
+

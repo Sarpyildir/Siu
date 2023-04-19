@@ -1,0 +1,27 @@
+@BEGIN
+void footballTest(bool ronaldo, bool messi, bool alnassr){
+	siu{"Goat test"}
+	if(ronaldo){
+		if(!messi){
+	siu{"Siuuuuuuuuu"}
+}
+	else{
+	siu{" Finally World Peace!"}
+}
+}
+else{
+	if(messi){
+		siu{"Ankaramessi Goatmessi."}
+}
+else{
+	siu{"Never gonna give you up"}
+}
+}
+if(ronaldo & alnassr) {
+	siu{"Moneysiuuuu"}
+}
+else{
+	siu{"kemira wowo anapaca wowo"}
+}
+}
+@END

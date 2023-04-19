@@ -1,0 +1,41 @@
+@BEGIN
+
+/* Example Program 2 written in website */ 
+
+bool foo(bool p, bool q, bool r){
+	siu{"boo"}
+	bool temp
+	if(r){
+		temp = q | r
+		temp = p -> temp
+	}
+	else{
+		temp = q => r
+		return temp
+	}
+	return temp
+}
+
+array a= { true, false }
+array b 
+b = { true, false }
+bool c
+
+for(bool x in a) {
+	for (bool y in b) {
+		c = foo(x, y, false)		
+	}	
+}
+
+/* display values of a */
+for (bool x in a) { 
+    siu{x}
+}
+/* display values of b */
+for (bool y in b) {
+    siu{b}
+}
+/* display value of c */
+siu{c}
+
+@END
